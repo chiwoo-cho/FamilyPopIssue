@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_default_background"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SIGNUP"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/color_default_string1"
+        android:layout_below="@+id/button_start_role_topmenu_home"
+        android:layout_alignRight="@+id/button_start_role_next"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PLEASE SELECT A ROLE"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/color_default_string"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="CLIENT"
+        android:id="@+id/button_role_client"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_state_0"
+        android:textColor="@color/color_default_string"
+        android:paddingLeft="-200dp"
+        android:layout_below="@+id/textView9"
+        android:layout_toRightOf="@+id/button_start_role_topmenu_home"
+        android:layout_marginTop="50dp" />
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="LOCATOR"
+        android:id="@+id/button_role_locator"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_state_0"
+        android:textColor="@color/color_default_string"
+        android:layout_below="@+id/button_role_client"
+        android:layout_alignLeft="@+id/button_role_client"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="SERVER"
+        android:id="@+id/button_role_server"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_state_0"
+        android:textColor="@color/color_default_string"
+        android:layout_below="@+id/button_role_locator"
+        android:layout_alignLeft="@+id/button_role_locator"
+        android:layout_marginTop="20dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMEMBER IT AS A DEFAULT STATE"
+        android:id="@+id/checkBox"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/color_default_string"
+        android:button="@drawable/style_checkbox_start_role"
+        android:checked="false"
+        android:layout_below="@+id/button_role_server"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button_start_role_next"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/style_button_next"
+        android:layout_below="@+id/checkBox"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="START A DIALOGUE"
+        android:id="@+id/textView28"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/button_start_role_topmenu_home"
+        android:background="@drawable/button_home"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/button_start_role_topmenu_setting"
+        android:background="@drawable/button_topmenu_setting"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CLIENT"
+        android:id="@+id/textView29"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/button_role_client"
+        android:layout_alignLeft="@+id/button_role_client"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LOCATOR"
+        android:id="@+id/textView30"
+        android:layout_alignTop="@+id/button_role_locator"
+        android:layout_alignLeft="@+id/button_role_locator"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SERVER"
+        android:id="@+id/textView31"
+        android:layout_alignTop="@+id/button_role_server"
+        android:layout_toRightOf="@+id/button_start_role_topmenu_home"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

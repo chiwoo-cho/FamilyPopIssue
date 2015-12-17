@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1b1b"
+    android:id="@+id/TitleActivity"
+    android:weightSum="1"
+    android:paddingTop="0dp"
+
+    android:gravity="center">
+
+    <ImageView
+        android:src = "@drawable/image_title"
+        android:layout_width="148dp"
+        android:layout_height="133dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title_familypop"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/title_startDialogue"-->
+        <!--android:id="@+id/button_startDialogue"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:background="@drawable/button_state" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/title_history"-->
+        <!--android:id="@+id/button_history"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:background="@drawable/button_state"-->
+        <!--android:layout_marginTop="10dp" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/title_setting"-->
+        <!--android:id="@+id/button_setting"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:background="@drawable/button_state"-->
+        <!--android:layout_marginTop="10dp" />-->
+
+</LinearLayout>

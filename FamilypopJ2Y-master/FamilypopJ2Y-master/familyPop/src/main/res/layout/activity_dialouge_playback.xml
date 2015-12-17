@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_default_background"
+    android:weightSum="1"
+    android:id="@+id/layout_talkhistory_playback"
+    >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_playback_home"
+        android:background="@drawable/button_home"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1:08:32"
+        android:id="@+id/textView23"
+        android:textColor="@color/color_default_string"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView24"
+        android:layout_alignLeft="@+id/button_playback_home" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CHILDREN&apos;S DAY LUNCH"
+        android:id="@+id/textView24"
+        android:textColor="@color/color_default_string1"
+        android:textStyle="bold"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/button_playback_home"
+        android:layout_alignLeft="@+id/textView23" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2015.05.05"
+        android:id="@+id/textView25"
+        android:textColor="@color/color_default_string"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignLeft="@+id/textView23" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_talkhistory_playback_bubbles"
+        android:background="@drawable/image_bubble_type_empty"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/image_bubble_type3" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_play_record"
+            android:background="@drawable/style_button_play"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layout_talkhistory_playback_bubbles"
+        android:id="@+id/layout_talkhistory_playback_voicestate">
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/imageView5"-->
+            <!--android:background="@drawable/scroll_smilepoint1"-->
+
+            <!--android:layout_alignLeft="@+id/seekBar_history_voice_playstate"-->
+            <!--android:layout_marginLeft="100dp" />-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6"
+            android:background="@drawable/scroll_smilepoint1"
+
+            android:layout_alignLeft="@+id/seekBar_history_voice_playstate"
+            android:visibility="invisible"/>
+
+        <!--SeekBar-->
+
+        <!--<com.j2y.familypop.backup.SeekBar-->
+        <com.j2y.familypop.backup.test_CustomSeekBar
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar_history_voice_playstate"
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/seekbar_historyplayback_voiceplay"
+            android:thumb="@drawable/seekbar_historyplayback_voice_thumb"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/imageView6"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

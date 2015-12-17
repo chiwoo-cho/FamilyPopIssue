@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1b1b"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:id="@+id/button_history_topmenu_role"
+            android:background="@drawable/button_topmenu_role"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="224dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="FAMILY POP"
+                android:id="@+id/textView26"
+                android:textColor="@color/color_default_string"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DIALOGUE HISTORY"
+                android:id="@+id/textView27"
+                android:textColor="@color/color_default_string1"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="31dp"
+            android:layout_height="33dp"
+            android:id="@+id/imageButton3"
+            android:background="@drawable/button_topmenu_off"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp" />
+
+        <ImageButton
+            android:layout_width="34dp"
+            android:layout_height="33dp"
+            android:id="@+id/button_history_topmenu_setting"
+            android:background="@drawable/button_topmenu_setting"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:id="@+id/imageView9"-->
+        <!--android:background="@drawable/background_history_topmenu"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginTop="39dp" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="CREEATE A NEW DIALOGUE"-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:textColor="#00A8BF"-->
+        <!--android:layout_marginTop="41dp"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="THER IS NO HISTORY"-->
+        <!--android:id="@+id/textView7"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:layout_alignTop="@+id/textView3"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="39dp" />-->
+
+        <RelativeLayout
+            android:id="@+id/layout_history_topmenu_role"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <!--top menu role-->
+
+            <!--top menu setting-->
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/test_listview"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_add_history"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_add_history" />
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="184dp"
+            android:id="@+id/_background_history_topmenu_role"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/background_menu_type0"
+            android:layout_marginTop="0dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLINET"
+            android:id="@+id/button_history_topmenu_client"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/color_default_string"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/button_history_topmenu_server" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCATOR"
+            android:id="@+id/button_history_topmenu_locator"
+            android:textColor="@color/color_default_string"
+            android:textStyle="bold"
+            android:layout_below="@+id/button_history_topmenu_client"
+            android:layout_alignRight="@+id/_background_history_topmenu_role" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SERVER"
+            android:id="@+id/button_history_topmenu_server"
+            android:textColor="@color/color_default_string"
+            android:textStyle="bold"
+            android:layout_below="@+id/button_history_topmenu_locator"
+            android:layout_alignLeft="@+id/button_history_topmenu_locator" />
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="184dp"
+            android:id="@+id/_background_history_topmenu_setting"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/background_menu_type1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SETTING1"
+            android:id="@+id/button_history_topmenu_setting1"
+            android:layout_alignBottom="@+id/button_history_topmenu_client"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SETTING2"
+            android:id="@+id/button_history_topmenu_setting2"
+            android:layout_alignBottom="@+id/button_history_topmenu_locator"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list_clear"
+            android:id="@+id/button_history_topmenu_listclear"
+            android:layout_below="@+id/button_history_topmenu_setting2"
+            android:layout_alignParentRight="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

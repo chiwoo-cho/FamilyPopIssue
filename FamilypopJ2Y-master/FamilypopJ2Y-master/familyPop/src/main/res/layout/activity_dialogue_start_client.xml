@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_default_background"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SELECT SERVER"
+        android:id="@+id/textView10"
+        android:textColor="@color/color_default_string"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp" />
+
+    <EditText
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/ClientIPText"
+        android:textColor="@color/color_default_string"
+        android:background="@color/color_default_string1"
+        android:layout_weight="0.02"
+        android:enabled="true"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="30dp">
+
+    </EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="USER NAME"
+        android:id="@+id/textView12"
+        android:textColor="@color/color_default_string"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MIN JEONG"
+        android:id="@+id/Text_userName"
+        android:layout_weight="0.04"
+        android:background="@color/color_default_string1"
+        android:textColor="@color/color_default_string"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BUBBLE COLOR"
+        android:id="@+id/textView14"
+        android:textColor="@color/color_default_string"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:textColor="#ffffff"
+            android:button="@drawable/radiobutton_custom_selector"
+            android:background="@drawable/image_color_0"
+            android:layout_gravity="center"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:button="@drawable/radiobutton_custom_selector"
+            android:background="@drawable/image_color_1"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:button="@drawable/radiobutton_custom_selector"
+            android:background="@drawable/image_color_2"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:button="@drawable/radiobutton_custom_selector"
+            android:background="@drawable/image_color_3"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5"
+            android:button="@drawable/radiobutton_custom_selector"
+            android:background="@drawable/image_color_4"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" />
+
+    </RadioGroup>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ClientNextButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_next_on"
+        android:layout_marginTop="50dp" />
+</LinearLayout>

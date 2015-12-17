@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/dialog_messagebox_ok_cancel"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_custom_dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="CANCEL"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:background="#00000000"
+            android:layout_marginRight="41dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/txt_custom_dialog_content"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/button_custom_dialog_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="OK"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:background="#00000000"
+            android:layout_marginLeft="39dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/txt_custom_dialog_content"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txt_custom_dialog_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SAVE DIALOGUE"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:singleLine="false"
+
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_messageBox_ok_cancel"
+            android:layout_alignLeft="@+id/txt_custom_dialog_content"
+            android:layout_alignRight="@+id/txt_custom_dialog_content"
+            android:layout_above="@+id/button_custom_dialog_cancel"
+            android:text="BIRTHDAY DINNER"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+</LinearLayout>

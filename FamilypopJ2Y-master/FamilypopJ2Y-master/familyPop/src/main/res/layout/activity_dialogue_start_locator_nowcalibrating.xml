@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_default_background">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/button_start_locator_waiting_topmenu_home"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_home"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="START A DIALOGUE"
+        android:id="@+id/textView34"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_default_string"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton10"
+        android:background="@drawable/button_topmenu_setting"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LOCATOR"
+        android:id="@+id/textView35"
+        android:layout_below="@+id/textView34"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:textColor="@color/color_default_string1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NOW CALIBRATING"
+        android:id="@+id/textView36"
+        android:textColor="@color/color_default_string"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView34" />
+</RelativeLayout>

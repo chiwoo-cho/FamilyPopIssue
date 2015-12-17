@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jsim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\pre-dexed\debug\support-v4-19.1.0-6ed8f0b0ece1376fedff4e3fef2ca0e951cd756c.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\exploded-aar\FamilyPop\socioPhone_lib_dist\unspecified\libs\jtransforms-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e52124b670340d47844a734e36765c3bc11b7f3">
+        <dex dex="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\pre-dexed\debug\jtransforms-2.4-2f876b4e5517261b9cf579dd2995a350883ac552.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\libs\android-core.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01b3b809db8f2b25d717c5c1b9d166547dea3fa9">
+        <dex dex="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\pre-dexed\debug\android-core-422140787b19f15f720de82137f47820aef31a49.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\libs\jbox2d-library-2.2.1-ds.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="03863d6332303c24bfb5c7ad6e0a8263d5e2d556">
+        <dex dex="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\pre-dexed\debug\jbox2d-library-2.2.1-ds-01bffa44ec419e7edcc3d5d178a0263f10671648.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\exploded-aar\FamilyPop\socioPhone_lib_dist\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e18e395e23ecc22cbae6a2e2c6cb58fadbdffa7">
+        <dex dex="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\pre-dexed\debug\classes-7555d1dcea88dde39e12dae340fdd8a1ae091ef8.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\libs\box2d_processing.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61e180715422740c1180039378f5cf9ef96479c2">
+        <dex dex="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\pre-dexed\debug\box2d_processing-7c2ab3bfc1fb542419d48339ae954d0793a67674.jar" />
+    </item>
+    <item
+        jar="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\exploded-aar\FamilyPop\app\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73cc0d3eca35e192890d5c98fd8094e9f33648dc">
+        <dex dex="C:\Users\jsim\AndroidStudioProjects\FamilyPop\familyPop\build\intermediates\pre-dexed\debug\classes-fcfb29a635cd5930f2c2946272ba4ce039c6a181.jar" />
+    </item>
+
+</items>

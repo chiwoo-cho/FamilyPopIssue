@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.nclab.familypop"
+        minSdkVersion 14
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':socioPhone_lib_dist')
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/android-core.jar')
+    compile files('libs/box2d_processing.jar')
+    compile files('libs/jbox2d-library-2.2.1-ds.jar')
+    compile project(':app')
+}

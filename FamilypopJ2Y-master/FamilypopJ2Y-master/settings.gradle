@@ -1,0 +1,2 @@
+include ':socioPhone_lib_dist', ':app'
+include ':familyPop'

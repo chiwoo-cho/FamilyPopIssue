@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#1b1b1b"
+     >
+
+    <!--<Button-->
+    <!--android:id="@+id/applyButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Apply"-->
+    <!--android:background="@drawable/button_state"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:layout_below="@+id/imageView5"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:enabled="false" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/imgFindButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="FindImage"-->
+        <!--android:background="@drawable/button_state"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:layout_below="@+id/button_client_talk"-->
+        <!--android:layout_alignRight="@+id/button_client_talk" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2015.05.13. 7:52 PM"
+        android:id="@+id/text_client_date"
+        android:layout_marginTop="41dp"
+        android:textColor="#ff72c4ff"
+        android:layout_below="@+id/button_client_dialogue_topmenu_home"
+        android:layout_toRightOf="@+id/imageView"
+        android:textStyle="bold"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BIRTHDAY DINNER"
+        android:id="@+id/text_client_name"
+        android:textColor="@color/color_default_string1"
+        android:layout_below="@+id/text_client_date"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="USER1, USER2, USER3, USER4"
+        android:id="@+id/text_client_users"
+        android:textColor="@color/color_default_string"
+        android:layout_below="@+id/text_client_name"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_client_redbubble"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/image_bubble_red"
+        android:layout_below="@+id/text_client_users"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Game"-->
+        <!--android:id="@+id/button_client_game"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:background="@drawable/button_state"-->
+        <!--android:textColor="#ffffff" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Record"-->
+        <!--android:id="@+id/button_client_record"-->
+        <!--android:layout_below="@+id/button_client_game"-->
+        <!--android:layout_alignLeft="@+id/button_client_game"-->
+        <!--android:background="@drawable/button_state"-->
+        <!--android:textColor="#ffffff" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Talk"-->
+        <!--android:id="@+id/button_client_talk"-->
+        <!--android:layout_below="@+id/button_client_record"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignLeft="@+id/button_client_record"-->
+        <!--android:background="@drawable/button_state"-->
+        <!--android:textColor="#ffffff" />-->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_client_dialogue_topmenu_home"
+        android:background="@drawable/button_home"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_client_dialogue_topmenu_feature"
+        android:background="@drawable/button_topmenu_off"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button_client_dialogue_topmenu_home"
+        android:layout_marginLeft="10dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_menu_type2"
+        android:layout_below="@+id/button_client_dialogue_topmenu_home"
+        android:id="@+id/layout_dialogue_menu_feature"
+        android:visibility="invisible">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="SHARE PHOTOS"
+                android:id="@+id/button_client_featuremenu_sharephotos"
+                android:background="#00000000"
+                android:textColor="@color/color_default_string"
+                android:layout_below="@+id/button2"
+                android:layout_alignRight="@+id/button2"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="SAVE DIALOGUE"
+                android:id="@+id/button2"
+                android:background="#00000000"
+                android:textColor="@color/color_default_string"
+                android:layout_above="@+id/button_client_featuremenu_dialoguehistory"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="QUIT DIALOGUE"
+                android:id="@+id/button_client_featuremenu_quitdialogue"
+                android:background="#00000000"
+                android:textColor="@color/color_default_string"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/button2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIALOGUE HISTORY"
+                android:id="@+id/button_client_featuremenu_dialoguehistory"
+                android:background="#00000000"
+                android:textColor="@color/color_default_string"
+                android:layout_alignBottom="@+id/button_client_featuremenu_familybomb"
+                android:layout_alignLeft="@+id/button_client_featuremenu_familybomb"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="30dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talk"
+                android:id="@+id/button_client_featuremenu_talk"
+                android:background="#00000000"
+                android:textColor="@color/color_default_string"
+                android:layout_below="@+id/button_client_featuremenu_quitdialogue"
+                android:layout_alignLeft="@+id/button_client_featuremenu_sharephotos"
+                android:layout_marginLeft="30dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smile Event"
+                android:id="@+id/button_client_featuremenu_smile_event"
+                android:background="#00000000"
+                android:textColor="@color/color_default_string"
+                android:layout_below="@+id/button_client_featuremenu_quitdialogue"
+                android:layout_alignLeft="@+id/button_client_featuremenu_sharephotos"
+                android:layout_marginLeft="30dp" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAMILY BOMB"
+                android:id="@+id/button_client_featuremenu_familybomb"
+                android:background="#00000000"
+                android:textColor="@color/color_default_string"
+                android:layout_below="@+id/button_client_featuremenu_talk"
+                android:layout_alignLeft="@+id/button_client_featuremenu_sharephotos"
+                android:layout_marginLeft="30dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

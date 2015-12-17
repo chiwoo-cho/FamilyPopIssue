@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_default_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CALIBRATION"
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_default_string1"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CHOOSE THE LOCATION FOR THE SERVER OF CELLPHONE"
+        android:id="@+id/textView18"
+        android:textColor="@color/color_default_string"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView11"
+        android:background="@drawable/background1"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_calibration_location_left"
+        android:background="@drawable/button_box_none"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_alignLeft="@+id/imageView11"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color_default_string"
+        android:textSize="13dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_calibration_location_top"
+        android:background="@drawable/button_box_none"
+        android:layout_alignTop="@+id/button_calibration_location_left"
+        android:layout_alignRight="@+id/imageView11"
+        android:layout_marginRight="10dp"
+        android:textSize="13dp"
+        android:textColor="@color/color_default_string" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_calibration_location_bottom"
+        android:background="@drawable/button_box_none"
+        android:layout_alignTop="@+id/button_calibration_location_right"
+        android:layout_alignLeft="@+id/button_calibration_location_left"
+        android:textSize="13dp"
+        android:textColor="@color/color_default_string" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_calibration_location_right"
+        android:background="@drawable/button_box_none"
+        android:layout_alignBottom="@+id/imageView11"
+        android:layout_alignLeft="@+id/button_calibration_location_top"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/color_default_string"
+        android:textSize="13dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_calibrationlocation_next"
+        android:layout_below="@+id/imageView11"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_next_on" />
+
+</RelativeLayout>

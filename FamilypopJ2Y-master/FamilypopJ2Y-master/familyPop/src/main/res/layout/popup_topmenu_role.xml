@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background_popup_topmenu_role"
+    android:orientation="vertical" android:layout_width="124dp"
+    android:layout_height="184dp"
+    android:background="@drawable/background_menu_type0"
+    android:gravity="left|top"
+    android:alpha="255"
+    >
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="CLIENT"-->
+        <!--android:id="@+id/button_pupup_role_client"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="35dp"-->
+        <!--android:textColor="@color/color_default_string" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="LOCATOR"-->
+        <!--android:id="@+id/button_pupup_role_locator"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textColor="@color/color_default_string" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="SERVER"-->
+        <!--android:id="@+id/button_pupup_role_server"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textColor="@color/color_default_string" />-->
+</LinearLayout>
